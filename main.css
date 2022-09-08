@@ -90,7 +90,9 @@ button {
 
 .watch_img {
     width: 300px;
+    height: 300px;
     padding-bottom: 10px;
+    object-fit: contain;
 }
 
 .products_container {
@@ -112,6 +114,8 @@ button {
     padding: 40px 0 40px 0;
     line-height: 0;
     font-size: 0.9em;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 .cart_button {
     align-self: center;
@@ -327,7 +331,7 @@ button {
 
 .loginContainer input[type=submit] {
     padding: 10px;
-    width: 100px;
+    width: 200px;
     background: rgb(255, 230, 241);
     border: none;
     border-radius: 5px;

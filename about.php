@@ -13,9 +13,9 @@
 
 <body>
     <div class="menu">
-        <a href="home.html"><p>Melbourne Watch Gallery</p></a>
-        <a href="about.html"><p>About Us</p></a>
-        <a href="management.html"><p>Product Management</p></a>
+        <a href="home.php"><p>Melbourne Watch Gallery</p></a>
+        <a href="about.php"><p>About Us</p></a>
+        <a href="management_login.php"><p>Product Management</p></a>
 
         <form class="getting" method="get">
             <input type="text" placeholder="Search.." name="search" id="search">
@@ -28,19 +28,17 @@
 
     </div>
 
-    <div class="managementContainer">
+    <div class="aboutus_container">
         <header class="top">
             <img alt="Company logo" class="logo" src="images/logo.jpg">
             <p>Melbourne Watch Gallery</p>
         </header>
 
-        <form class="loginContainer">
-            <label for="username">Username:</label><br>
-            <input type="text" id="username" name="username"><br>
-            <label for="pwd">Password:</label><br>
-            <input type="password" id="pwd" name="pwd"><br><br>
-            <input type="submit" value="Login">
-        </form>
+        <p>Melbourne Watch Gallery is a retail company that sells smartwatches and
+        sports trackers. Melbourne Watch Gallery has stores in major Melbourne
+        and Sydney shopping centres. The head office is in Melbourne, Victoria.
+        Melbourne Watch Gallery has been in operation for two years and has an
+        extensive range of smartwatches and sports trackers to sell.</p>
         
     </div>
 </body>

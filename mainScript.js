@@ -18,9 +18,8 @@ function addToCard (a) {
 function addToCard2 (a) {
     let productName = a.parentElement.querySelector(".product_name").innerHTML;
     let productPrice = a.parentElement.querySelector(".price").innerHTML;
-    let productImg = a.parentElement.parentElement.querySelector(".pics_container").querySelector("img").src;
+    let productImg = a.parentElement.parentElement.querySelector(".pics_container").querySelector(".thumb2").src;
     let altText = a.parentElement.parentElement.querySelector(".pics_container").querySelector("img").alt;
-
     let item = {productName: productName, productPrice: productPrice, productImg: productImg, altText: altText};
 
     let shopList = JSON.parse(localStorage.getItem("shoppingCard"));
